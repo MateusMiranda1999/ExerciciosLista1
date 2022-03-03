@@ -7,7 +7,9 @@ namespace Exercício.Dois
         static void Main(string[] args)
         {
             Console.WriteLine("Informe o valor em USD: ");
+            
             string valorDigitado = Console.ReadLine();
+            
             decimal valorConvertido = 0.0m;
             decimal valorCambio = 5.22m;
 
